@@ -6,7 +6,7 @@
 import UIKit
 
 extension Array: IJExtension {}
-
+ 
 extension JExtension where Base: RandomAccessCollection {
     public func element(at index: Int) -> Base.Element? {
         if base.count > index && index >= 0 {

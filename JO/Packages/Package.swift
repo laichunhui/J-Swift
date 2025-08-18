@@ -37,7 +37,8 @@ let package = Package(
             name: "JKit",
             dependencies: [
             ]),
-    ]
+    ],
+    swiftLanguageModes: [.v6]
 )
 
 extension Target.Dependency {

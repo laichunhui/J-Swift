@@ -34,17 +34,22 @@ struct ContentView: View {
     }
     
     func test() {
-        var a = [1, 2, 3]
-        a.j.replace(4, at: 1)
-        a.append(2)
-        let e = a.j.element(at: 3) ?? -1
-        a.j.swap(from: 1, to: 3)
-        print(a)
-        a.j.remove(at: 3)
-        print(a)
-        a.j.remove(at: 5)
-        let c = a.j.element(at: 3)
-        print(a, c)
+        let width = kScreenWidth
+        var text = """
+         hello how  are 
+        
+        my name
+        """
+        print(text)
+
+        Task {
+            await doAny()
+        }
+    }
+    
+    func doAny() async {
+        let size = kScreenSize
+        print("doANy \(size)")
     }
 }
 
