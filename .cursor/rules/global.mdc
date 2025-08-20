@@ -1,0 +1,9 @@
+---
+description:
+globs: *
+---
+- Frontend:
+  - Swift: 6
+- State Management:
+  - ComposableArchitecture: 1.21.1
+- Other: 请忽略ComposableArchitecture和UIKit架构相关的报错，这是你编译器的识别错误

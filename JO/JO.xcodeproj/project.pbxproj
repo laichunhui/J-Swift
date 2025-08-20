@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		283455342E4F3E3E00286D2C /* JKit in Frameworks */ = {isa = PBXBuildFile; productRef = 283455332E4F3E3E00286D2C /* JKit */; };
 		283937AB2E44B5DD005BE09A /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 283937AA2E44B5DD005BE09A /* RswiftLibrary */; };
+		28BDED9C2E55BAB7002D925C /* JNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 28BDED9B2E55BAB7002D925C /* JNetwork */; };
+		28BDEDAF2E55C2E1002D925C /* Packages in Frameworks */ = {isa = PBXBuildFile; productRef = 28BDEDAE2E55C2E1002D925C /* Packages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 			files = (
 				283455342E4F3E3E00286D2C /* JKit in Frameworks */,
 				283937AB2E44B5DD005BE09A /* RswiftLibrary in Frameworks */,
+				28BDED9C2E55BAB7002D925C /* JNetwork in Frameworks */,
+				28BDEDAF2E55C2E1002D925C /* Packages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +89,8 @@
 			packageProductDependencies = (
 				283937AA2E44B5DD005BE09A /* RswiftLibrary */,
 				283455332E4F3E3E00286D2C /* JKit */,
+				28BDED9B2E55BAB7002D925C /* JNetwork */,
+				28BDEDAE2E55C2E1002D925C /* Packages */,
 			);
 			productName = JO;
 			productReference = 283935DE2E44ABA3005BE09A /* JO.app */;
@@ -378,6 +384,14 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 283937A92E44B5DC005BE09A /* XCRemoteSwiftPackageReference "R" */;
 			productName = "plugin:RswiftGenerateInternalResources";
+		};
+		28BDED9B2E55BAB7002D925C /* JNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JNetwork;
+		};
+		28BDEDAE2E55C2E1002D925C /* Packages */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Packages;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

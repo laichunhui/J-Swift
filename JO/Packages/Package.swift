@@ -15,6 +15,7 @@ let package = Package(
             name: "Packages",
             targets: ["Packages"]),
         .library(name: "JKit", targets: ["JKit"]),
+        .library(name: "JNetwork", targets: ["JNetwork"]),
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.10.2")),
@@ -24,6 +25,7 @@ let package = Package(
         ),
         .package(url: "https://github.com/johnpatrickmorgan/FlowStacks.git", from: "0.7.0"),
         .package(url: "https://github.com/siteline/swiftui-introspect", from: "1.3.0"),
+        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack", from: "3.9.0"),
 
     ],
     targets: [
@@ -32,10 +34,19 @@ let package = Package(
             dependencies: [
                 .threeComp.tca,
                 "JKit",
+                "JNetwork"
             ]),
         .target(
             name: "JKit",
             dependencies: [
+                .threeComp.logger
+            ]),
+        .target(
+            name: "JNetwork",
+            dependencies: [
+                "JKit",
+                .threeComp.alamofire,
+                .threeComp.tca,
             ]),
     ],
     swiftLanguageModes: [.v6]
@@ -46,5 +57,8 @@ extension Target.Dependency {
     struct threeComp {
         static let tca = product(
             name: "ComposableArchitecture", package: "swift-composable-architecture")
+        static let logger = product(
+            name: "CocoaLumberjackSwift", package: "CocoaLumberjack")
+        static let alamofire = byName(name: "Alamofire")
     }
 }
