@@ -17,19 +17,19 @@ public enum Logger {
         DDLog.add(DDOSLogger.sharedInstance, with: .debug)
     }
     
-    public static func debug(_ message: @autoclosure () -> DDLogMessageFormat) {
-        DDLogDebug(message())
+    public static func debug(_ message: @autoclosure () -> Any) {
+        DDLogDebug("[D] \(message())")
     }
     
-    public static func info(_ message: @autoclosure () -> DDLogMessageFormat) {
-        DDLogInfo(message())
+    public static func info(_ message: @autoclosure () -> Any) {
+        DDLogInfo("[I] \(message())")
     }
     
-    public static func warn(_ message: @autoclosure () -> DDLogMessageFormat) {
-        DDLogWarn(message())
+    public static func warn(_ message: @autoclosure () -> Any) {
+        DDLogWarn("[W] \(message())")
     }
 
-    public static func error(_ message: @autoclosure () -> DDLogMessageFormat) {
-        DDLogError(message())
+    public static func error(_ message: @autoclosure () -> Any) {
+        DDLogError("[E] \(message())")
     }
 }

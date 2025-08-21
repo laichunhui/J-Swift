@@ -36,17 +36,21 @@ struct Home {
         Reduce { state, action in
             switch action {
             case .onAppear:
+                Logger.configure()
                 return .none
             case .test:
-                Logger.debug("debug message")
-                Logger.info("info message")
+                Logger.debug("debug")
+                Logger.info("info message\(FileUtils.sysLibCachesPath())")
                 Logger.error("error message")
+                
                 return .none
             case .loadData:
                 return .run { send in
                     let res = await network.request(HomeApi.tab(type: "all"), as: TabDatas.self)
                     if case .success(let t) = res {
                         await send(.binding(.set(\.tabData, t)))
+                    } else if case .failure(let e) = res {
+                        Logger.error(e.localizedDescription)
                     }
                 }
             case .binding(_):
