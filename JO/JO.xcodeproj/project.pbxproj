@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28194F9E2E5703EA00BA974E /* JUI in Frameworks */ = {isa = PBXBuildFile; productRef = 28194F9D2E5703EA00BA974E /* JUI */; };
+		28194FA02E5703F800BA974E /* JResources in Frameworks */ = {isa = PBXBuildFile; productRef = 28194F9F2E5703F800BA974E /* JResources */; };
 		283455342E4F3E3E00286D2C /* JKit in Frameworks */ = {isa = PBXBuildFile; productRef = 283455332E4F3E3E00286D2C /* JKit */; };
 		283937AB2E44B5DD005BE09A /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 283937AA2E44B5DD005BE09A /* RswiftLibrary */; };
 		28BDED9C2E55BAB7002D925C /* JNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 28BDED9B2E55BAB7002D925C /* JNetwork */; };
@@ -32,7 +34,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				283455342E4F3E3E00286D2C /* JKit in Frameworks */,
+				28194FA02E5703F800BA974E /* JResources in Frameworks */,
 				283937AB2E44B5DD005BE09A /* RswiftLibrary in Frameworks */,
+				28194F9E2E5703EA00BA974E /* JUI in Frameworks */,
 				28BDED9C2E55BAB7002D925C /* JNetwork in Frameworks */,
 				28BDEDAF2E55C2E1002D925C /* Packages in Frameworks */,
 			);
@@ -44,9 +48,8 @@
 		283935D52E44ABA3005BE09A = {
 			isa = PBXGroup;
 			children = (
-				283935EF2E44AC3A005BE09A /* Packages */,
 				283935E02E44ABA3005BE09A /* JO */,
-				283935F02E44AC4C005BE09A /* Frameworks */,
+				283935EF2E44AC3A005BE09A /* Packages */,
 				283935DF2E44ABA3005BE09A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,13 +60,6 @@
 				283935DE2E44ABA3005BE09A /* JO.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		283935F02E44AC4C005BE09A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +87,8 @@
 				283455332E4F3E3E00286D2C /* JKit */,
 				28BDED9B2E55BAB7002D925C /* JNetwork */,
 				28BDEDAE2E55C2E1002D925C /* Packages */,
+				28194F9D2E5703EA00BA974E /* JUI */,
+				28194F9F2E5703F800BA974E /* JResources */,
 			);
 			productName = JO;
 			productReference = 283935DE2E44ABA3005BE09A /* JO.app */;
@@ -285,9 +283,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JO/Preview Content\"";
+				DEVELOPMENT_TEAM = T65EE75V48;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +295,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +303,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = creek.JO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,9 +315,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JO/Preview Content\"";
+				DEVELOPMENT_TEAM = T65EE75V48;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -323,6 +327,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +335,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = creek.JO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -371,6 +377,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		28194F9D2E5703EA00BA974E /* JUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JUI;
+		};
+		28194F9F2E5703F800BA974E /* JResources */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JResources;
+		};
 		283455332E4F3E3E00286D2C /* JKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = JKit;

@@ -1,0 +1,265 @@
+/*
+ Localizable.strings
+ Telegram
+ 
+ Created by tg2024 on 2024/5/28.
+ 
+ */
+/* ****  --Common-- **** */
+"title.tips" = "Tips";
+"title.cancel" = "Cancel";
+"title.confirm" = "Confirm";
+"title.complete" = "Complete";
+"title.know" = "Know";
+"title.ok" = "OK";
+"title.privacyPolicy" = "Privacy Policy";
+"common.no.again" = "No more prompts";
+"title.copy" = "Copy";
+"title.copied" = "Copied";
+"title.share" = "Share";
+"title.save" = "Save";
+"title.delete" = "Delete";
+"title.notNow" = "Not now";
+"title.paste" = "Paste";
+"title.selectAll" = "Select all";
+"title.deselectAll" = "Deselect all";
+"title.successful" = "Successful";
+"title.search" = "Search";
+
+/* ****  --app-- **** */
+"app.upgrade.title" = "New version Update";
+"app.upgrade.action" = "Update";
+"app.upgrade.newVersion" = "New version";
+
+/* ****  --User-- **** */
+"user.gender" = "Gender";
+"user.male" = "Male";
+"user.female" = "Female";
+"user.nickname" = "Nickname";
+"user.uploadSuccessful" = "Upload successful";
+"user.enterName" = "Enter your name";
+"user.birthday" = "Birthday";
+"user.selectBirthday" = "Select your birthday";
+"user.modifyBirthday" = "Modify birthday";
+"user.tip.genderCannotModify" = "Gender cannot be modified after submission";
+"user.tip.sensitive" = "Please fill in sensitive vocabulary again";
+"user.tip.genderChange" = "You can only change your gender once";
+"user.account.delete.title" = "Before deleting your account, please carefully read the following important tips. After the account is deleted, you will not be able to use it, including but not limited to:";
+"user.account.delete.des1" = "1. Please note that when your account is deleted, all existing items, coins, chat data, etc. in your account will be cleared and cannot be restored, and others will not be able to search for you.";
+"user.account.delete.des2" = "2. To protect your account rights, please submit the deleting request  We will keep your account data for 30 days. If you change your mind, you can contact our staff to restore your account.";
+"user.account.delete.des3" = "3. The deletingn of your account does not mean that your violations before deleting have been deleted.";
+"user.account.delete.confirmTitle" = "Do you want to confirm the deletingn again?";
+"user.account.delete.confirmDes" = "I have read and agree with HazarChat Account Deletion Noticee";
+"user.submittedSuccess" = "Submitted successfully";
+"user.wealth" = "Wealth";
+"user.charm" = "Charm";
+
+/* ****  --Login-- **** */
+"login.TermsOfService" = "Terms of Service";
+"login.privacyPolicy" = "Privacy Policy";
+"login.signInWithApple" = "Sign in with Apple";
+"login.signInWithGoogle" = "Sign in with Google";
+"login.signInWithGoogle" = "Sign in with Facebook";
+"login.signInWithOther" = "Other login methods";
+"login.usageFunction" = "Login and usage function";
+"login.tip.verifyLimit" = "Today's verification has reached the upper limit";
+"login.tip.autoAgreeTerms" = "Continuing to use means that you agree to us Terms of Service and Privacy Policy";
+"login.mobileLogin" = "Mobile number login";
+"login.phoneNum" = "Phone Number";
+"login.verifyCode" = "Verification code";
+"login.Register" = "Register";
+"login.login" = "Login";
+"login.getCode" = "Get Code";
+"login.countryRegion" = "country/region";
+"login.reacquire" = "Reacquire";
+"login.tip.codeSent" = "Verification code has been sent";
+"login.selectCountry" = "Select country/region";
+
+"login.agree" = "Agree";
+"login.disagree" = "Disagree";
+"login.welcome" = "Welcome to Hazar Chat";
+"login.tip.agreePravicy" = "To ensure that you are aware of our policies regarding user privacy and content security, you must agree to the following terms before using our services.";
+
+/* ****  --Home-- **** */
+"home.explore" = "Explore";
+"home.following" = "Following";
+"home.chatRooms" = "Chat Rooms";
+"home.room" = "Room";
+"home.search.id" = "Search ID";
+"home.search.history" = "Search history";
+"home.user" = "User";
+"home.follow" = "Follow";
+
+/* ****  --Empty-- **** */
+"empty.network" = "Network connection failed please reload~";
+"empty.reload" = "Reload";
+"empty.room" = "No room available, please wait a moment";
+"empty.search" = "No search results ";
+"empty.giftData" = "No more gifts at the moment~";
+"empty.notice" = "No system messgae is available~";
+"empty.following" = "You havent's followed anyone yet~";
+"empty.follower" = "No follower at this time~";
+"empty.visitor" = "No noe's visted you yet~";
+"empty.gift" = "The gift list is empty~";
+"empty.bill" = "The bill details are empty~";
+"empty.roomOnlineMembers" = "No online users";
+
+/* ****  --Room-- **** */
+"Room.create.t" = "Create Room";
+"Room.create.edit" = "Edit Room";
+"Room.create.cover" = "Room Cover";
+"Room.create.replace" = "Replace";
+"Room.create.name" = "Room Name";
+"Room.create.namePlaceholder" = "Enter your room name";
+"Room.create.tag" = "Room Tag";
+"Room.create.mic" = "Mic Mode";
+"Room.create.some.seats" = "%@ Mic";
+"Room.onlineUsers" = "Online Users";
+"Room.exit" = "Exit";
+"Room.minimize" = "Minimize";
+"Room.tip.takeOffMic" = "You have been taken off the microphone by the administrator";
+"Room.tip.followed" = "You have followed this room";
+"Room.tip.unfollowed" = "You have unfollowed the room";
+"Room.tip.selectUser" = "Please select a user first";
+"Room.switchRoom" = "Switch rooms";
+"Room.tip.switchRoom" = "You are currently in another room, do you want to switch to the new room?";
+"Room.tip.selectAUser" = "Please select a user first";
+/// - 房间设置 -
+"Room.announce" = "Room Announcement";
+"Room.management" = "Management";
+"Room.edit" = "Edit Room";
+"Room.managers" = "Managers";
+"Room.homeowner" = "Homeowner";
+"Room.administrators" = "Administrators";
+"Room.addAdministrators" = "Add Administrator";
+"Room.tip.addAdministrators" = "Whether to set the selected menmber as
+room manager";
+"Room.add" = "Add";
+"Room.searchUsers" = "Search for online users";
+"Room.added" = "Added";
+"Room.deleted" = "Deleted";
+"Room.clearPublicScreenMsg" = "Clear public screen messages";
+"Room.tip.clearPublicScreenMsg" = "Are you sure to clear the current public screen message?";
+"Room.cleared" = "Cleared";
+"Room.locked" = "Room locked";
+"Room.enterPassword" = "Enter room password";
+"Room.tip.setPassword" = "Please set a 4-digit room code";
+"Room.tip.formatForSetPassword" = "The password is a pure number and does not support letters";
+"Room.positionSwitch" = "Position switching";
+"Room.PublicScreenMessage" = "Public screen message";
+"Room.tip.deleteManager" = "Are you sure to delete this management?";
+"Room.tip.positionSwitch" = "Mai position switching will allow all users to go to the wheat. Please confirm whether to switch?";
+/// -编辑房间 -
+"Room.edit" = "Edit Room";
+"Room.edit.replace" = "Replace";
+"Room.edit.photograph" = "Photograph";
+"Room.edit.album" = "Album";
+"Room.edit.name" = "Room Name";
+"Room.edit.bg" = "Room Background";
+"Room.edit.tg" = "Room Tag";
+"Room.edit.preservation" = "Preservation";
+"Room.edit.modifyCover" = "Modify Cover";
+/// -麦位-
+"Room.mic.open" = "Open Mic";
+"Room.mic.turnOff" = "Turn off Microphone";
+"Room.mic.lock" = "Lock up";
+"Room.mic.unlock" = "Unlock";
+"Room.mic.prohibit" = "Prohibit mic";
+"Room.mic.relieve" = "Relieve";
+"Room.mic.kickOut" = "Kick It Out";
+"Room.mic.on" = "On Mic";
+"Room.mic.off" = "Mic off";
+
+/* ****  --Me-- **** */
+"Me.title" = "Me";
+"Me.contacts" = "Contacts";
+"Me.following" = "Following";
+"Me.fans" = "Fans";
+"Me.giftGiving" = "Gift giving";
+"Me.wallet" = "My wallet";
+"Me.recharge" = "Recharge";
+"Me.level" = "My Level";
+"Me.room" = "My Room";
+"Me.language" = "Language";
+"Me.about" = "About Us";
+"Me.settings" = "Settings";
+
+"Me.Relation.follow" = "Follow";
+"Me.Relation.followed" = "Followed";
+"Me.Relation.followSuccess" = "Follow Success";
+"Me.Relation.followCanceled" = "Successfully cleared";
+"Me.Relation.report" = "Report";
+"Me.Relation.reportSuccess" = "Report success";
+"Me.Relation.reportReason" = "Select reason for report";
+
+"Me.about.privacyPolicy" = "Privacy Policy";
+"Me.about.userAgreement" = "User Agreement";
+"Me.about.version" = "Current version";
+
+"Me.setting.notifications" = "Notifications";
+"Me.setting.voice" = "Voice";
+"Me.setting.blacklist" = "Blacklist";
+"Me.setting.clearCache" = "Clear Cache";
+"Me.setting.cacheCleared" = "Cache cleared";
+"Me.setting.accountDeletion" = "Account Deletion";
+"Me.setting.logout" = "Log Out";
+"Me.setting.logout.title" = "Are you sure you want to exit?";
+"Me.setting.logout.des" = "After exiting, historical data will not be deleted";
+
+"Me.edit.editing" = "Data Editing";
+"Me.edit.changeAvatar" = "Change profit photo";
+"Me.edit.uploadSuccessful" = "Upload successful";
+"Me.edit.username" = "Username";
+"Me.edit.gender" = "Gender";
+"Me.edit.birthday" = "Birthday";
+"Me.edit.intro" = "Brief introduction";
+"Me.edit.tip.sensitive" = "Please fill in sensitive vocabulary again";
+"Me.edit.submit" = "Submit";
+
+"Me.profile.giftsWall" = "Gifts Wall";
+"Me.profile.homepage" = "Homepage";
+"Me.profile.Chat" = "Chat";
+"Me.profile.send" = "Send";
+"Me.profile.edit" = "Edit Profile";
+"Me.profile.inRoom" = "In Room";
+
+/* ****  --IM Chat-- **** */
+"Chat.chats" = "Chats";
+"Chat.tip.clearConversations" = "Are you sure to clear the current chat message?";
+"Chat.tip.canSendMessage" = "Only wealth Lv.2 and above can
+send message";
+"Chat.saySome" = "Say something...";
+"Chat.holdSpeak" = "Hold and speak";
+"Chat.releaseCancel" = "Release to cancel";
+
+"Chat.report" = "Report";
+"Chat.block" = "Blacklist";
+"Chat.unblock" = "Unblock";
+"Chat.alreadyShielded" = "Already shielded";
+"Chat.tip.block" = "Are you sure to add to the blacklist？";
+"Chat.tip.ifBlocked" = "if you added someone to the blacklist, you
+will unfollow and no longer receive messages
+form the other side. He/she will not be able to
+comment on your post";
+
+/* ****  --Recharge-- **** */
+"Recharge.recharge" = "Recharge";
+"Recharge.exchange" = "Exchange";
+"Recharge.bill" = "Bill";
+"Recharge.coinBalance" = "Coin balance";
+"Recharge.diamondBalance" = "Diamond balance";
+"Recharge.refresh" = "Refresh";
+"Recharge.tip.selectAmount" = "Please select the recharge amount";
+"Recharge.coin" = "Coin";
+"Recharge.diamond" = "Diamond";
+"Recharge.tip.quantityOfExchanged" = "Please enter the quantity of coins to be exchanged";
+"Recharge.diamondShortage" = "Diamond shortage";
+"Recharge.exchangeSuccessful" = "Exchange successful";
+"Recharge.confirmExchange" = "Confirm exchange";
+"Recharge.exchange.enter" = "Enter the quantity of diamonds for exchange";
+"Recharge.exchange.rate" = "%@Diamonds = %@Coins";
+"Recharge.tip.exchange" = "Only supports integer multiples of 10 for redemption";
+/* ****  --Gift-- **** */
+"Gift.gift" = "Gift";
+"Gift.send" = "Send";
+"Gift.tip.insuffiBalance" = "Sorry, your credit is running low";

@@ -1,0 +1,265 @@
+/*
+ Localizable.strings
+ Telegram
+ 
+ Created by tg2024 on 2024/5/28.
+
+/* ****  --Common-- **** */
+"title.tips" = "تنبيه";
+"title.cancel" = "إلغاء";
+"title.confirm" = "تاكد";
+"title.complete" = "تم";
+"title.know" = "اعرف";
+"title.ok" = "تم";
+"title.privacyPolicy" = "سياسة الخصوصية";
+"common.no.again" = "لا توجد المزيد من التنبيهات";
+"title.copy" = "نسخ";
+"title.copied" = "تم النسخ";
+"title.share" = "مشاركة";
+"title.save" = "حفظ";
+"title.delete" = "حذف";
+"title.notNow" = "ليس الآن";
+"title.paste" = "لصق";
+"title.selectAll" = "تحديد الكل";
+"title.deselectAll" = "إلغاء التحديد";
+"title.successful" = "ناجح";
+"title.search" = "بحث";
+
+/* ****  --app-- **** */
+"app.upgrade.title" = "تحديث ";
+"app.upgrade.action" = "تحديث ";
+"app.upgrade.newVersion" = "نسخة جديدة ";
+
+/* ****  --User-- **** */
+"user.gender" = "جنس";
+"user.male" = "ذكر";
+"user.female" = "أنثي";
+"user.nickname" = "اسم";
+"user.uploadSuccessful" = "تم تحميل";
+"user.enterName" = "يرجي إدخال نيمك";
+"user.birthday" = "ميلاد";
+"user.selectBirthday" = "يرجي اختار ميلادك ";
+"user.modifyBirthday" = "تعديل ميلاد";
+"user.tip.genderCannotModify" = "لا يمكن تتغير الجنس بعد التاكد";
+"user.tip.sensitive" = "يرجي تملأ مجدد بسبب الكلمات الحساسية";
+"user.tip.genderChange" = "You can only change your gender once";
+"user.account.delete.title" = "Before deleting your account, please carefully read the following important tips. After the account is deleted, you will not be able to use it, including but not limited to:";
+"user.account.delete.des1" = "1. Please note that when your account is deleted, all existing items, coins, chat data, etc. in your account will be cleared and cannot be restored, and others will not be able to search for you.";
+"user.account.delete.des2" = "2. To protect your account rights, please submit the deleting request  We will keep your account data for 30 days. If you change your mind, you can contact our staff to restore your account.";
+"user.account.delete.des3" = "3. The deletingn of your account does not mean that your violations before deleting have been deleted.";
+"user.account.delete.confirmTitle" = "Do you want to confirm the deletingn again?";
+"user.account.delete.confirmDes" = "I have read and agree with HazarChat Account Deletion Noticee";
+"user.submittedSuccess" = "Submitted successfully";
+"user.account.delete.confirmTitle" = "Do you want to confirm the deletingn again?";
+"user.account.delete.confirmDes" = "I have read and agree with HazarChat Account Deletion Noticee";
+"user.submittedSuccess" = "Submitted successfully";
+
+/* ****  --Login-- **** */
+"login.TermsOfService" = "Terms of Service";
+"login.privacyPolicy" = "Privacy Policy";
+"login.signInWithApple" = "Sign in with Apple";
+"login.signInWithGoogle" = "Sign in with Google";
+"login.signInWithGoogle" = "Sign in with Facebook";
+"login.signInWithOther" = "تسجيل دخول عبر طريقة اخري";
+"login.usageFunction" = "تسجيل دخول و استخدم التطبيق";
+"login.tip.verifyLimit" = "Today's verification has reached the upper limit";
+"login.tip.autoAgreeTerms" = "Continuing to use means that you agree to us Terms of Service and Privacy Policy";
+"login.mobileLogin" = "تسجيل دخول عبر رقم الهاتف";
+"login.phoneNum" = "يرجي إدخال رقم الهاتف";
+"login.verifyCode" = "رقم الرمز";
+"login.Register" = "Register";
+"login.login" = "تسجيل دخول";
+"login.getCode" = "حصول علي رقم الرمز";
+"login.countryRegion" = "دولة /منطقة";
+"login.reacquire" = "إعادة";
+"login.tip.codeSent" = "تم ارسال رسالة الرمز";
+"login.selectCountry" = "دولة/منطقة";
+
+"login.agree" = "موافق";
+"login.disagree" = "غير  موافق";
+"login.welcome" = "Welcome to Hazar Chat";
+"login.tip.agreePravicy" = "To ensure that you are aware of our policies regarding user privacy and content security, you must agree to the following terms before using our services.";
+
+/* ****  --Home-- **** */
+"home.explore" = "إكتشاف";
+"home.following" = "متابعة";
+"home.chatRooms" = "غرفة الدردشة";
+"home.room" = "الغرفة";
+"home.search.id" = "أدخل معرفة الحساب";
+"home.search.history" = "تاريخ البحث";
+"home.user" = "المستخدم";
+"home.follow" = "متابعة";
+
+/* ****  --Empty-- **** */
+"empty.network" = "فشل اتصال بشبكة يرجي محاولة مجددا";
+"empty.reload" = "محاولة مجددا";
+"empty.room" = "لا يوجد الغرفة ممكن تشوف بعد قليل";
+"empty.search" = "No search results ";
+"empty.giftData" = "لا يوجد بيانات الهدايا";
+"empty.notice" = "لا يوجد اعلان السيستم";
+"empty.following" = "انت لم تتابع علي احد بعد";
+"empty.follower" = "لا يوجد لك متابع بعد";
+"empty.visitor" = "لا يوجد زوار بعد";
+"empty.gift" = "لا يوجد هدايا بعد";
+"empty.bill" = "لا يوجد سجيلا معاملات بعد";
+"empty.roomOnlineMembers" = "لا يوجد المستخدم علي الانترنيت";
+
+/* ****  --Room-- **** */
+"Room.create.t" = "انشاء الغرفة";
+"Room.create.edit" = "إعدادات الغرفة";
+"Room.create.cover" = "تعديل غلاف الغرفةr";
+"Room.create.replace" = "Replace";
+"Room.create.name" = "اسم الغرفة";
+"Room.create.namePlaceholder" = "Enter your room name";
+"Room.create.tag" = "علامة الغرفة";
+"Room.create.mic" = "مايك";
+"Room.create.some.seats" = "مايكات %@";
+"Room.onlineUsers" = "Online Users";
+"Room.exit" = "خروج";
+"Room.minimize" = "تصغير";
+"Room.tip.takeOffMic" = "لقد طردك الادمن من المايك";
+"Room.tip.followed" = "تم متابعة الغرفة";
+"Room.tip.unfollowed" = "إلغاء المتابعة للغرفة";
+"Room.tip.selectUser" = "اختار المستخدم";
+"Room.switchRoom" = "Switch rooms";
+"Room.tip.switchRoom" = "You are currently in another room, do you want to switch to the new room?";
+"Room.tip.selectAUser" = "اختار المستخدم";
+/// - 房间设置 -
+"Room.announce" = "إعلان الغرفة";
+"Room.management" = "إدارة الغرفة";
+"Room.edit" = "إعدادات الغرفة";
+"Room.managers" = "قائمة المشرفة";
+"Room.homeowner" = "صاحب الغرفة";
+"Room.administrators" = "مشرفة";
+"Room.addAdministrators" = "إضافة المشرفة";
+"Room.tip.addAdministrators" = "هل تريد جعل من اختارتها المشرفه";
+"Room.add" = "إضافة";
+"Room.searchUsers" = "بحث المستخدم الاونلاين";
+"Room.added" = "تم إضافة";
+"Room.deleted" = "تم حذف";
+"Room.clearPublicScreenMsg" = "مسح رسايل الشاشة";
+"Room.tip.clearPublicScreenMsg" = "هل أنت متاكد مسح رسايل الشاشة الحالي";
+"Room.cleared" = "تم";
+"Room.locked" = "قفل الغرفة";
+"Room.enterPassword" = "إدخال رقم السر الغرفة";
+"Room.tip.setPassword" = "تعيين كلمة مرور مكونة من 4 أرقام";
+"Room.tip.formatForSetPassword" = "لا يمكن مكون رقم السر الا بارقام";
+"Room.positionSwitch" = "تعديل شكل المايك";
+"Room.PublicScreenMessage" = "رسايل الشاشة";
+"Room.tip.deleteManager" = "هل تريد تحذف هذه المشرفة؟";
+"Room.tip.positionSwitch" = "سيجعل المستخدمين نزل من المايكات بسبب تغيير شكل المايكات 
+هل تتاكد تغير؟";
+/// -编辑房间 -
+"Room.edit" = "إعدادات الغرفة";
+"Room.edit.replace" = "تبديل";
+"Room.edit.photograph" = "صور";
+"Room.edit.album" = "ملف الصورة";
+"Room.edit.name" = "اسم الغرفة";
+"Room.edit.bg" = "خلفية الغرفة";
+"Room.edit.tg" = "علامة الغرفة";
+"Room.edit.preservation" = "حفظ";
+"Room.edit.modifyCover" = "تعديل غلاف الغرفة";
+/// -麦位-
+"Room.mic.open" = "فتح المايك";
+"Room.mic.turnOff" = "إغلاق المايك";
+"Room.mic.lock" = "ففل المايك";
+"Room.mic.unlock" = "فتح القفل";
+"Room.mic.prohibit" = "منع علي المايك";
+"Room.mic.relieve" = "رفع الحظر المايك";
+"Room.mic.kickOut" = "طرد من مايك";
+"Room.mic.on" = "أخذ مايك";
+"Room.mic.off" = "نزل مايك";
+
+/* ****  --Me-- **** */
+"Me.title" = "انا";
+"Me.contacts" = "أصدقاء";
+"Me.following" = "متابعة";
+"Me.fans" = "متابعين";
+"Me.giftGiving" = "ارسال هدايا";
+"Me.wallet" = "محفظتي";
+"Me.recharge" = "شحن";
+"Me.level" = "مستوياتي";
+"Me.room" = "غرفتي";
+"Me.language" = "لغة";
+"Me.about" = "عنا";
+"Me.settings" = "إعدادات";
+
+"Me.Relation.follow" = "متابعة";
+"Me.Relation.followed" = "إلغاء المتابعة";
+"Me.Relation.followSuccess" = "تم متابعة";
+"Me.Relation.followCanceled" = "Successfully cleared";
+"Me.Relation.report" = "بلاغة";
+"Me.Relation.reportSuccess" = "تم البلاغة";
+"Me.Relation.reportReason" = "اختار سبب البلاغة";
+
+"Me.about.privacyPolicy" = "سياسة الخصوصية";
+"Me.about.userAgreement" = "اتفاقية المستخدم";
+"Me.about.version" = "نسخة حالية";
+
+"Me.setting.notifications" = "Notifications";
+"Me.setting.voice" = "Voice";
+"Me.setting.blacklist" = "حظر";
+"Me.setting.clearCache" = "مسح ذاكرة التخزين المؤقت";
+"Me.setting.cacheCleared" = "تم مسح ذاكرة التخزين المؤقت";
+"Me.setting.accountDeletion" = "حذف الحساب";
+"Me.setting.logout" = "تسجيل خروج";
+"Me.setting.logout.title" = "هل تاكد تسجيل خروج؟";
+"Me.setting.logout.des" = "تبقي البيانات بعد تسجيل الخروج";
+
+"Me.edit.editing" = "إعدادات المعلومات";
+"Me.edit.changeAvatar" = "تغيير الصورة";
+"Me.edit.uploadSuccessful" = "تم تحميل";
+"Me.edit.username" = "اسم";
+"Me.edit.gender" = "جنس";
+"Me.edit.birthday" = "ميلاد";
+"Me.edit.intro" = "معلومات الشخصية";
+"Me.edit.tip.sensitive" = "رجاء تقديم مجددا بسبب كلمة الحساسية";
+"Me.edit.submit" = "تقديم";
+
+"Me.profile.giftsWall" = "حائط الهدايا";
+"Me.profile.homepage" = "صفحة الرئسية";
+"Me.profile.Chat" = "دردشة";
+"Me.profile.send" = " إهداء";
+"Me.profile.edit" = "إعدادات المعلومات";
+"Me.profile.inRoom" = "في الغرفة";
+
+/* ****  --IM Chat-- **** */
+"Chat.chats" = "رسالة";
+"Chat.tip.clearConversations" = "هل متاكد افراغ الرسايل الحالي";
+"Chat.tip.canSendMessage" = "Only wealth Lv.2 and above can
+send message";
+"Chat.saySome" = "ارسال رسايل";
+"Chat.holdSpeak" = "اضغط و تكلم";
+"Chat.releaseCancel" = "التراجع عن إلغاء";
+
+"Chat.report" = "بلاغة";
+"Chat.block" = "حظر";
+"Chat.unblock" = "Unblock";
+"Chat.alreadyShielded" = "تم حظر";
+"Chat.tip.block" = "Are you sure to add to the blacklist？";
+"Chat.tip.ifBlocked" = "if you added someone to the blacklist, you
+will unfollow and no longer receive messages
+form the other side. He/she will not be able to
+comment on your post";
+
+/* ****  --Recharge-- **** */
+"Recharge.recharge" = "شحن";
+"Recharge.exchange" = "استبدال";
+"Recharge.bill" = "سجيلات معاملات ";
+"Recharge.coinBalance" = "متبقي من الكويزا";
+"Recharge.diamondBalance" = "متبقي الماسة";
+"Recharge.refresh" = "Refresh";
+"Recharge.tip.selectAmount" = "باقات القطع الذهبية";
+"Recharge.coin" = "عملة ذهبية";
+"Recharge.diamond" = "ماسة";
+"Recharge.tip.quantityOfExchanged" = "Please enter the quantity of coins to be exchanged";
+"Recharge.diamondShortage" = "عدد الماس غير كافي";
+"Recharge.exchangeSuccessful" = "تم استبدال";
+"Recharge.confirmExchange" = "تاكد";
+"Recharge.exchange.enter" = "إدخال عدد الماسة لاسبدال الي عملة ذهبية";
+"Recharge.exchange.rate" = "%@ماس%@=عملة ذهبي";
+"Recharge.tip.exchange" = "دعم تحويل فقط ب10 و اضعافه";
+/* ****  --Gift-- **** */
+"Gift.gift" = "هدية";
+"Gift.send" = " إهداء";
+"Gift.tip.insuffiBalance" = "المبلغ غير كافي";

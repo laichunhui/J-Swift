@@ -54,4 +54,3 @@ public extension JExtension where Base == String {
         return base.count
     }
 }
-

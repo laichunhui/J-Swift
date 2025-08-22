@@ -1,0 +1,243 @@
+/*
+ Localizable.strings
+ Telegram
+ 
+ Created by tg2024 on 2024/5/28.
+ 
+ */
+/* ****  --Common-- **** */
+"title.tips" = "温馨提示";
+"title.cancel" = "取消";
+"title.confirm" = "确认";
+"title.complete" = "完成";
+"title.know" = "Know";
+"title.ok" = "OK";
+"title.privacyPolicy" = "Privacy Policy";
+"common.no.again" = "No more prompts";
+"title.copy" = "复制";
+"title.copied" = "已复制";
+"title.share" = "分享";
+"title.save" = "保存";
+"title.delete" = "删除";
+"title.notNow" = "跳过";
+"title.paste" = "粘贴";
+"title.selectAll" = "全选";
+"title.deselectAll" = "取消全选";
+"title.successful" = "成功";
+"title.search" = "搜索";
+
+/* ****  --app-- **** */
+"app.upgrade.title" = "新版本升级";
+"app.upgrade.action" = "升级";
+"app.upgrade.newVersion" = "新版本";
+
+/* ****  --User-- **** */
+"user.gender" = "性别";
+"user.male" = "男";
+"user.female" = "女";
+"user.nickname" = "昵称";
+"user.uploadSuccessful" = "上传成功";
+"user.enterName" = "请输入您的昵称";
+"user.birthday" = "生日";
+"user.selectBirthday" = "请选择您的生日";
+"user.modifyBirthday" = "修改生日";
+"user.tip.genderCannotModify" = "提交后性别不可修改";
+"user.tip.sensitive" = "涉及敏感词汇请从新填写";
+"user.tip.genderChange" = "性别确定后不能更改";
+"user.account.delete.title" = "在您删除您的账号之前，请仔细阅读以下重要提示。账号被删除后，您将无法使用该账号，包括但不限于：";
+"user.account.delete.des1" = "1、请您须知，当您账号被删除后，您账号现有的所有道具、金币、聊天数据等，将都会被清除，不能恢复，别人也无法搜索到您。";
+"user.account.delete.des2" = "2、为保障您的账号权益，提交注销后，我们将为您保留账号数据30天，如有反悔，您可以联系我们工作人员恢复账号。";
+"user.account.delete.des3" = "3、您的账号被注销，并不意味，您在注销前的违规行为得到了删除。";
+"user.account.delete.confirmTitle" = "是否再次确认注销？";
+"user.account.delete.confirmDes" = "我已阅读并同意HazarChat账户删除通知";
+"user.submittedSuccess" = "提交成功";
+
+/* ****  --Login-- **** */
+"login.TermsOfService" = "服务条款";
+"login.privacyPolicy" = "隐私政策";
+"login.signInWithApple" = "Apple 登录";
+"login.signInWithGoogle" = "Google 登录";
+"login.signInWithGoogle" = "Facebook 登录";
+"login.signInWithOther" = "其他登录方式";
+"login.usageFunction" = "今日验证已达上限";
+"login.tip.verifyLimit" = "登录使用功能";
+"login.tip.autoAgreeTerms" = "继续使用，即表示您同意我们
+的服务条款和隐私政策";
+"login.mobileLogin" = "手机号码登录";
+"login.phoneNum" = "请输入您的手机号码";
+"login.verifyCode" = "请输入验证码";
+"login.Register" = "注册";
+"login.login" = "登录";
+"login.getCode" = "获取验证码";
+"login.countryRegion" = "国家/区域";
+"login.reacquire" = "重新获得";
+"login.tip.codeSent" = "验证码已发送";
+"login.selectCountry" = "选择国家/地区";
+
+"login.agree" = "同意";
+"login.disagree" = "不同意";
+"login.welcome" = "欢迎来到 Hazar Chat";
+"login.tip.agreePravicy" = "为确保您已了解我们关于用户隐私和内容安全的政策，您必须在使用我们的服务之前同意以下条款。";
+
+/* ****  --Home-- **** */
+"home.explore" = "发现";
+"home.following" = "关注";
+"home.chatRooms" = "聊天室";
+"home.room" = "房间";
+"home.search.id" = "搜索ID";
+"home.search.history" = "搜索历史";
+"home.user" = "User";
+"home.follow" = "关注";
+
+/* ****  --Empty-- **** */
+"empty.network" = "网络连接失败，请重新加载";
+"empty.reload" = "重试";
+"empty.room" = "暂无房间，请稍侯查看";
+"empty.search" = "暂无搜索结果";
+"empty.giftData" = "暂无礼物数据";
+"empty.notice" = "暂无系统通知";
+"empty.following" = "您还没有关注人";
+"empty.follower" = "您还没有粉丝";
+"empty.visitor" = "还没有访客";
+"empty.gift" = "还没有礼物";
+"empty.bill" = "还没有账单明细";
+"empty.roomOnlineMembers" = "没有在线用户";
+
+/* ****  --Room-- **** */
+"Room.create.t" = "创建房间";
+"Room.create.edit" = "编辑房间";
+"Room.create.cover" = "房间封面";
+"Room.create.replace" = "更换";
+"Room.create.name" = "房间名称";
+"Room.create.namePlaceholder" = "Enter your room name";
+"Room.create.tag" = "房间标签";
+"Room.create.mic" = "麦位";
+"Room.create.some.seats" = "%@ 麦";
+"Room.onlineUsers" = "在线人数";
+/// - 房间设置 -
+"Room.announce" = "房间公告";
+"Room.management" = "房间管理";
+"Room.managers" = "管理员列表";
+"Room.homeowner" = "房主";
+"Room.administrators" = "管理员";
+"Room.addAdministrators" = "添加管理员";
+"Room.tip.addAdministrators" = "是否将所选成员添加为管理员";
+"Room.add" = "添加";
+"Room.searchUsers" = "搜索在线用户";
+"Room.added" = "已添加";
+"Room.deleted" = "已删除";
+"Room.clearPublicScreenMsg" = "清除公屏消息";
+"Room.tip.clearPublicScreenMsg" = "确定清除当前公屏消息？";
+"Room.cleared" = "已清除";
+"Room.locked" = "房间上锁";
+"Room.enterPassword" = "输入房间密码";
+"Room.tip.setPassword" = "请设置一个4位数的房间密码";
+"Room.tip.formatForSetPassword" = "密码为纯数字，不支持字母";
+"Room.positionSwitch" = "麦位切换";
+"Room.PublicScreenMessage" = "公屏消息";
+"Room.tip.deleteManager" = "确定删除该管理？";
+/// -编辑房间 -
+"Room.edit" = "编辑房间";
+"Room.edit.replace" = "更换";
+"Room.edit.photograph" = "拍照";
+"Room.edit.album" = "相册";
+"Room.edit.name" = "房间昵称";
+"Room.edit.bg" = "房间背景";
+"Room.edit.tg" = "房间标签";
+"Room.edit.preservation" = "保存";
+/// -麦位-
+"Room.mic.open" = "开麦";
+"Room.mic.turnOff" = "关麦";
+"Room.mic.lock" = "上锁";
+"Room.mic.unlock" = "开锁";
+"Room.mic.prohibit" = "禁麦";
+"Room.mic.relieve" = "解禁";
+"Room.mic.kickOut" = "踢出麦位";
+"Room.mic.on" = "上麦";
+"Room.mic.off" = "下麦";
+
+/* ****  --Me-- **** */
+"Me.title" = "我的";
+"Me.contacts" = "联系人";
+"Me.following" = "关注";
+"Me.fans" = "粉丝";
+"Me.giftGiving" = "送礼（数量展示）";
+"Me.wallet" = "我的钱包";
+"Me.recharge" = "充值";
+"Me.level" = "我的等级";
+"Me.room" = "我的房间";
+"Me.language" = "语言切换";
+"Me.about" = "关于我们";
+"Me.settings" = "设置";
+"Me.Relation.follow" = "关注";
+"Me.Relation.followed" = "已关注";
+"Me.Relation.followSuccess" = "关注成功";
+"Me.Relation.followCanceled" = "取关成功";
+"Me.Relation.report" = "举报";
+"Me.Relation.reportSuccess" = "举报成功";
+"Me.Relation.reportReason" = "选择举报理由";
+
+"Me.about.privacyPolicy" = "隐私政策";
+"Me.about.userAgreement" = "用户协议";
+"Me.about.version" = "Current version";
+"Me.setting.notifications" = "消息通知";
+"Me.setting.voice" = "声音";
+"Me.setting.blacklist" = "黑名单";
+"Me.setting.clearCache" = "清除缓存";
+"Me.setting.accountDeletion" = "账号注销";
+"Me.setting.logout" = "退出登录";
+
+"Me.edit.editing" = "资料编辑";
+"Me.edit.changeAvatar" = "修改头像";
+"Me.edit.uploadSuccessful" = "上传成功";
+"Me.edit.username" = "昵称";
+"Me.edit.gender" = "性别";
+"Me.edit.birthday" = "生日";
+"Me.edit.intro" = "简介";
+"Me.edit.tip.sensitive" = "涉及敏感词汇请从新填写";
+"Me.edit.submit" = "提交";
+
+"Me.profile.giftsWall" = "礼物墙";
+"Me.profile.homepage" = "主页";
+"Me.profile.Chat" = "聊天";
+"Me.profile.send" = "送礼（赠送）";
+"Me.profile.edit" = "编辑资料";
+"Me.profile.inRoom" = "在房间";
+
+/* ****  --IM Chat-- **** */
+"Chat.chats" = "消息";
+"Chat.tip.clearConversations" = "确定清空当前聊天消息？";
+"Chat.tip.canSendMessage" = "财富等级5级，才能发消息哦";
+"Chat.saySome" = "说些什么";
+"Chat.holdSpeak" = "按住说话";
+"Chat.releaseCancel" = "松开取消";
+
+"Chat.report" = "举报";
+"Chat.block" = "拉黑";
+"Chat.unblock" = "取消拉黑";
+"Chat.alreadyShielded" = "已拉黑";
+"Chat.tip.block" = "确定加入黑名单吗？";
+"Chat.tip.ifBlocked" = "加入黑名单后，将无法接受他/她的消息";
+
+/* ****  --Recharge-- **** */
+"Recharge.recharge" = "充值";
+"Recharge.exchange" = "兑换";
+"Recharge.bill" = "账单";
+"Recharge.coinBalance" = "金币余额";
+"Recharge.diamondBalance" = "钻石余额";
+"Recharge.refresh" = "刷新";
+"Recharge.tip.selectAmount" = "请选择充值金额";
+"Recharge.coin" = "金币";
+"Recharge.diamond" = "钻石";
+"Recharge.tip.quantityOfExchanged" = "请输入兑换硬币的数量";
+"Recharge.diamondShortage" = "钻石不足";
+"Recharge.exchangeSuccessful" = "兑换成功";
+"Recharge.confirmExchange" = "确认兑换";
+"Recharge.exchange.enter" = "输入钻石数量进行兑换";
+"Recharge.exchange.rate" = "%@钻石 = %@硬币";
+"Recharge.tip.exchange" = "仅支持10的整数倍兑换";
+
+/* ****  --Gift-- **** */
+"Gift.gift" = "礼物";
+"Gift.send" = "赠送";
+"Gift.tip.insuffiBalance" = "余额不足";

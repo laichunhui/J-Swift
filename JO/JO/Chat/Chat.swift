@@ -1,31 +1,27 @@
 //
-//  Home.swift
+//  Chat.swift
 //  JO
 //
-//  Created by jee on 2025/8/20.
+//  Created by jee on 2025/8/21.
 //
 
 import Foundation
-import ComposableArchitecture
-import JNetwork
 import JKit
+import ComposableArchitecture
 
 @Reducer
-struct Home {
+struct Chat {
     @ObservableState
     struct State: Equatable {
         var isLoading = false
-        var tabData: TabDatas?
     }
     
     enum Action: BindableAction {
         case onAppear
         case test
-        case loadData
         case binding(BindingAction<State>)
     }
     
-    @Dependency(\.continuousClock) var clock
     @Dependency(\.network) var network
     
     private enum CancelID { case load }
@@ -41,21 +37,10 @@ struct Home {
                 Logger.debug("debug")
                 Logger.info("info message\(FileUtils.sysLibCachesPath())")
                 Logger.error("error message")
-                
                 return .none
-            case .loadData:
-                return .run { send in
-                    let res = await network.request(HomeApi.tab(type: "all"), as: TabDatas.self)
-                    if case .success(let t) = res {
-                        await send(.binding(.set(\.tabData, t)))
-                    } else if case .failure(let e) = res {
-                        Logger.error(e.localizedDescription)
-                    }
-                }
             case .binding(_):
                 return .none
             }
         }
     }
 }
-
